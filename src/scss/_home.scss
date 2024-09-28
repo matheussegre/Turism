@@ -7,7 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
 }
 
 body{
@@ -58,6 +57,18 @@ header {
     font-style: italic;
 }
 
+#couples{
+    color: $accent-purple;
+ }
+
+ #families{
+     color: $accent-pink;
+ }
+
+ #budget{
+     color: $accent-orange;
+ }
+
 main{
     border-top: 1px solid $border-primary;
     border-bottom: 1px solid $border-primary;
@@ -105,9 +116,6 @@ h2{
         li{
             // margin-left: 1em;
             color: $accent-blue;
-            &::marker{
-                color: $accent-blue;
-            }
         }
     }
 }
@@ -120,16 +128,4 @@ img{
     max-width: 112rem;
     border-radius: 2.8rem;
     object-fit: cover;
-}
-
-#couples{
-   color: $accent-purple;
-}
-
-#families{
-    color: $accent-pink;
-}
-
-#budget{
-    color: $accent-orange;
 }
